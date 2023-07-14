@@ -5,9 +5,21 @@ import {setupMaster, fork} from "cluster";
 import cfonts from "cfonts";
 import {createInterface} from "readline";
 import yargs from "yargs";
+import express from "express";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
+const app = express();
+const port = 3000
+const rl = createInterface(process.stdin, process.stdout)
+
+app.get('/', (req, res) => {
+  res.send('Hello world!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
 
 say("THE DORRAT-BOT-MD", {
   font: "tiny",
