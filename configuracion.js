@@ -10,22 +10,13 @@ import {en, es, pt} from "./lib/idiomas/total-idiomas.js";
 
 //cambia los números que sean propietarios
 global.owner = [
-  ["593959425714", "🔰 𝐃𝐈𝐄𝐆𝐎 - 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 🔰", true],
+  ["593959425714", "Diego", true],
   ["51993138466", "🔰  𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 1 🔰", true],
-  ["573184314110", "🔰 𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 3 🔰", true],
-  ["50246028932", "🔰  𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 4 🔰", true],
-  ["584125778026"],
-  ["595986674310"],
-  ["594694910098"],
-  ["51936767238"],
-  ["50495625729"],
-  ["593968585383"],
-  ["5219996125657"],
-  ["51957041866"],
+  ["5534991628976", "VK", true],
 ];
-global.suittag = ["593959425714"];
-global.mods = ["595986674310"];
-global.prems = ["595986674310"];
+global.suittag = ["5534991628976"];
+global.mods = ["5534991628976"];
+global.prems = ["5534991628976"];
 
 (global.APIs = {
   // API Prefix
@@ -90,7 +81,7 @@ global.openai_org_id = "org-3";
 global.lenguajeGB = es;
 
 /* ______________________________________________ */
-global.creadorname = "𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂";
+global.creadorname = "VKBOT";
 global.creatorname = creadorname;
 global.library = "BAILEYS-MD";
 global.vs = "V10";
@@ -105,32 +96,32 @@ global.mes = d.toLocaleDateString("es", {month: "long"});
 global.año = d.toLocaleDateString("es", {year: "numeric"});
 global.tiempo = d.toLocaleString("en-US", {hour: "numeric", minute: "numeric", second: "numeric", hour12: true});
 //------------- Sticker WM -----------
-global.packname = `𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂`;
-global.author = `©⏤͟͟͞𝐓𝐇𝐄 𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃`;
+global.packname = `VKBOT`;
+global.author = `VKBOT`;
 //_______________
-global.wm = "𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓 | 𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂";
-global.db3t = `©⏤͟͟͞𝐓𝐇𝐄 𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃`;
+global.wm = "VKBOT | VKBOT";
+global.db3t = `VKBOT`;
 global.wm3 = db3t;
-global.codex = `Diego-Ofc`;
-global.igfg = "𝑫𝑶𝑹𝑹𝑨𝑻-𝑩𝑶𝑻";
-global.wait = "*[❕] CARGANDO POR FAVOR ESPERA...*";
+global.codex = `VK`;
+global.igfg = "VKBOT";
+global.wait = "*[⌛] CARREGANDO, AGUARDE...*";
 //-------------------
-global.md = "https://chat.whatsapp.com/JuuuUaIQnnE3t4SWQenShg";
+global.md = "";
 global.dorramd = md;
 global.tarje = "Banesco";
-global.yt = "http://youtube.com/@diegogameplays82";
+global.yt = "";
 global.youtube = yt;
 //Menu
 global.DorrafotoMenu = ["./galería/dorratmini.mp4"];
 global.menulinks = [md, yt];
 /* _____________________________________________ */
-global.ag = "━━━ ❎ 𝙰𝙳𝚅𝙴𝚁𝚃𝙴𝙽𝙲𝙸𝙰 ❎ ━━━";
+global.ag = "━━━ ❎ AVISO  ❎ ━━━";
 global.advertencia = ag;
-global.fg = "☆━━━━ ⚠️ 𝙵𝙰𝙻𝙻𝙾 ⚠️ ━━━☆";
+global.fg = "☆━━━━ ⚠️ ERRO ⚠️ ━━━☆";
 global.fallo = fg;
-global.mg = "══ ❎ 𝙻𝙾 𝚄𝚂𝙾 𝙼𝙰𝙻 ❎ ══";
+global.mg = "══ ❎ USO INCORRETO ❎ ══";
 global.mal = mg;
-global.dorre = "DORRAT-BOT-MD";
+global.dorre = "VKBOT";
 global.DORRA = dorre;
 
 /* Imagenes___________________ */
@@ -219,92 +210,92 @@ global.rpg = {
   emoticon(string) {
     string = string.toLowerCase();
     let emot = {
-      tarjeta: "💳 Banesco",
+      tarjeta: "💳 Credito",
       level: "🧬 Nivel",
       limit: "💎 Diamante",
-      bitcoins: "🏵️ BitCoins",
+      bitcoins: "🏵️ Bitcoins",
       dolares: "💵 Dolares",
       exp: "⚡ Experiencia",
       bank: "🏦 Banco",
       diamond: "💎 Diamante",
-      health: "❤️ Salud",
+      health: "❤️ Saúde",
       kyubi: "🌀 Magia",
       joincount: "☯️ Token",
       emerald: "💚 Esmeralda",
       stamina: "✨ Energía",
-      role: "💪 Rango",
+      role: "💪 Role",
       premium: "🎟️ Premium",
-      pointxp: "📧 Puntos Exp",
-      gold: "👑 Oro",
-      trash: "🗑 Basura",
+      pointxp: "📧 Pontos Exp",
+      gold: "👑 Ouro",
+      trash: "🗑 Lixeira",
       crystal: "🔮 Cristal",
       intelligence: "🧠 Inteligencia",
-      string: "🕸️ Cuerda",
-      keygold: "🔑 Llave de Oro",
-      keyiron: "🗝️ Llave de Hierro",
-      emas: "🪅 Piñata",
-      fishingrod: "🎣 Caña de Pescar",
+      string: "🕸️ Corda",
+      keygold: "🔑 Chave de Ouro",
+      keyiron: "🗝️ Chave de Ferro",
+      emas: "🪅 Cachaça",
+      fishingrod: "🎣 Vara de Pesca",
       gems: "🍀 Gemas",
-      magicwand: "⚕️ Varita Mágica",
-      mana: "🪄 Hechizo",
-      agility: "🤸‍♂️ Agilidad",
-      darkcrystal: "♠️ Cristal Oscuro",
-      iron: "⛓️ Hierro",
-      rock: "🪨 Roca",
-      potion: "🥤 Poción",
+      magicwand: "⚕️ Varinha Mágica",
+      mana: "🪄 Feitiço",
+      agility: "🤸‍♂️ Agilidade",
+      darkcrystal: "♠️ Cristal Obscuro",
+      iron: "⛓️ Ferro",
+      rock: "🪨 Rocha",
+      potion: "🥤 Poção",
       superior: "💼 Superior",
-      robo: "🚔 Robo",
-      upgrader: "🧰 Aumentar Mejora",
-      wood: "🪵 Madera",
-      strength: "🦹‍ ♀️ Fuerza",
+      robo: "🚔 Ruobo",
+      upgrader: "🧰 Upgrade",
+      wood: "🪵 Madeira",
+      strength: "🦹‍ ♀️ Força",
       arc: "🏹 Arco",
       armor: "🥼 Armadura",
       bow: "🏹 Super Arco",
-      pickaxe: "⛏️ Pico",
+      pickaxe: "⛏️ Picareta",
       sword: "⚔️ Espada",
-      common: "📦 Caja Común",
-      uncoommon: "🥡 Caja Poco Común",
-      mythic: "🗳️ Caja Mítico",
-      legendary: "🎁 Caja Legendaria",
-      petFood: "🍖 Alimento para Mascota",
-      pet: "🍱 Caja para Mascota",
-      bibitanggur: "🍇 Semilla de Uva",
-      bibitapel: "🍎 Semilla de Manzana",
-      bibitjeruk: "🍊 Semillas de naranja",
-      bibitmangga: "🥭 Semilla de Mango",
-      bibitpisang: "🍌 Semillas de Plátano",
-      ayam: "🐓 Pollo",
-      babi: "🐖 Puerco",
-      Jabali: "🐗 Jabali",
-      bull: "🐃 Toro",
-      buaya: "🐊 Cocodrilo",
+      common: "📦 Caixa Comum",
+      uncoommon: "🥡 Caixa Pouco Comum",
+      mythic: "🗳️ Caixa Mítica",
+      legendary: "🎁 Caixa Legendaria",
+      petFood: "🍖 Alimento para Mascote",
+      pet: "🍱 Caixa para Mascote",
+      bibitanggur: "🍇 Semente de Uva",
+      bibitapel: "🍎 Semente de Maçã",
+      bibitjeruk: "🍊 Semente de Laranja",
+      bibitmangga: "🥭 Semente de Manga",
+      bibitpisang: "🍌 Semente de Banana",
+      ayam: "🐓 Frango",
+      babi: "🐖 Porco",
+      Jabali: "🐗 Javali",
+      bull: "🐃 Touro",
+      buaya: "🐊 Crocodilo",
       cat: "🐈 Gato",
       centaur: "🐐 Centauro",
-      chicken: "🐓 Pollo",
+      chicken: "🐓 Galinha",
       cow: "🐄 Vaca",
-      dog: "🐕 Perro",
-      dragon: "🐉 Dragón",
+      dog: "🐕 Cachorro",
+      dragon: "🐉 Dragão",
       elephant: "🐘 Elefante",
-      fox: "🦊 Zorro",
-      giraffe: "🦒 Jirafa",
+      fox: "🦊 Raposa",
+      giraffe: "🦒 Girafa",
       griffin: "🦅 Ave",
-      horse: "🐎 Caballo",
+      horse: "🐎 Cavalo",
       kambing: "🐐 Cabra",
       kerbau: "🐃 Búfalo",
-      lion: "🦁 León",
-      monyet: "🐒 Mono",
+      lion: "🦁 Leão",
+      monyet: "🐒 Macaco",
       panda: "🐼 Panda",
-      snake: "🐍 Serpiente",
+      snake: "🐍 Serpente",
       phonix: "🕊️ Fénix",
       rhinoceros: "🦏 Rinoceronte",
       wolf: "🐺 Lobo",
       tiger: "🐅 Tigre",
-      cumi: "🦑 Calamar",
-      udang: "🦐 Camarón",
-      ikan: "🐟 Pez",
-      fideos: "🍝 Fideos",
-      ramuan: "🧪 Ingrediente NOVA",
-      knife: "🔪 Cuchillo",
+      cumi: "🦑 Polvo",
+      udang: "🦐 Camarão",
+      ikan: "🐟 Peixe",
+      fideos: "🍝 Macarrão",
+      ramuan: "🧪 Ingrediente NOVO",
+      knife: "🔪 Faca",
     };
     let results = Object.keys(emot)
       .map((v) => [v, new RegExp(v, "gi")])
